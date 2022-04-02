@@ -243,7 +243,7 @@ TEST_ASSERT_EQUAL(199.53, double_opearnd.output);
 void test_factorial(void){
   // int_operand.operand=-3;
   // TEST_ASSERT_EQUAL(UNDEFINED, factorial(& int_operand));
-
+ //assert statement
   int_operand.operand=0;
   TEST_ASSERT_EQUAL(SUCCESS, factorial(&int_operand));
   TEST_ASSERT_EQUAL(1, int_operand.output);
